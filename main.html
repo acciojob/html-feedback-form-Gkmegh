@@ -14,7 +14,7 @@
     <h2>Feedback Form</h2>
     <form>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" minlength="3" maxlength="50" required>
+        <input type="text" id="name" name="name" pattern=".{3,50}" title="Name must have 3 to 50 characters" required>
         <br>
 
         <label for="portfolio">Portfolio:</label>
